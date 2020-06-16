@@ -1,0 +1,57 @@
+body{
+   
+    background-color: grey;
+    margin: auto;
+    background-image: url('Sky.jpg');
+    background-repeat: no-repeat;
+    width: 295px;
+    max-width: 295px;
+    height: 325px;
+    text-align: center;
+    border-radius: 4px;
+    padding-right: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.calculatorButtons{
+    display: flex;
+    font-size: 19px;
+    background-color:whitesmoke;
+    border: 2px solid black;
+    width: 17%;
+    height: 50px;
+    margin: 5px;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+}
+.screen{
+    display: flex;
+    background-color:white;
+    border: 2px solid black;
+    width: 81%;
+    height: 50px;
+    margin: 5px;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+   
+}
+.calculatorButtons:hover {
+    background-color: rgb(74, 236, 236);
+}
+.clearButton {
+    display: flex;
+    width: 50%;
+    color: rgb(221, 120, 120);
+
+}
+.fullWidth {
+    width: 81%;
+}
